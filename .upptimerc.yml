@@ -1,0 +1,21 @@
+owner: clk-am
+repo: uptime
+
+sites:
+  - name: CLK.AM
+    url: https://clk.am
+  - name: CLKAM.COM
+    url: https://clkam.com
+  - name: IP Service
+    url: https://ip.clk.am
+
+status-website:
+  cname: status.clk.am
+  name: CLK.AM Status
+  introTitle: "**CLK.AM Status** — real-time uptime monitoring."
+  introMessage: This status page uses real-time data from our [GitHub repository](https://github.com/clk-am/uptime).
+  navbar:
+    - title: Status
+      href: /
+    - title: CLK.AM
+      href: https://clk.am
