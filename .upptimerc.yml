@@ -1,0 +1,27 @@
+owner: clk-am
+repo: uptime
+
+sites:
+  - name: CLK.AM
+    url: https://clk.am
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; Upptime/1.0; +https://github.com/clk-am/uptime)"
+  - name: CLKAM.COM
+    url: https://clkam.com
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; Upptime/1.0; +https://github.com/clk-am/uptime)"
+  - name: IP Service
+    url: https://ip.clk.am
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; Upptime/1.0; +https://github.com/clk-am/uptime)"
+
+status-website:
+  cname: status.clk.am
+  name: CLK.AM Status
+  introTitle: "**CLK.AM Status** — real-time uptime monitoring."
+  introMessage: This status page uses real-time data from our [GitHub repository](https://github.com/clk-am/uptime).
+  navbar:
+    - title: Status
+      href: /
+    - title: CLK.AM
+      href: https://clk.am
