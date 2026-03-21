@@ -4,14 +4,23 @@ repo: uptime
 sites:
   - name: CLK.AM
     url: https://clk.am
+    expectedStatusCodes:
+      - 200
+      - 403
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; Upptime/1.0; +https://github.com/clk-am/uptime)"
   - name: CLKAM.COM
     url: https://clkam.com
+    expectedStatusCodes:
+      - 200
+      - 403
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; Upptime/1.0; +https://github.com/clk-am/uptime)"
   - name: IP Service
     url: https://ip.clk.am
+    expectedStatusCodes:
+      - 200
+      - 403
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; Upptime/1.0; +https://github.com/clk-am/uptime)"
 
